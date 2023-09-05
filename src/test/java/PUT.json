@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "name": "Fernando Fortunato Alterado",
+  "username": "FerFortunatoAlterado",
+  "email": "fernandofortunatoalterado@hotmail.com",
+  "address": {
+    "street": "Frederico Maurer Alterado",
+    "suite": "Apt. 208 Alterado",
+    "city": "Curitiba Alterado",
+    "zipcode": "81630-020",
+    "geo": {
+      "lat": "-40.7779",
+      "lng": "80.8886"
+    }
+  },
+  "phone": "5-123-876-1111 x56442",
+  "website": "teste.org",
+  "company": {
+    "name": "Parana",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
