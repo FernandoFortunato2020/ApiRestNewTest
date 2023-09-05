@@ -21,7 +21,7 @@ public class VerbosTest {
     public void testGet() {
         given()
                 .when()
-                .get("https://jsonplaceholder.typicode.com/users?id=10")
+                .get("/users?id=10")
                 .then()
                 .body("name", contains("Clementina DuBuque"))
                 .body("email", contains("Rey.Padberg@karina.biz"))
@@ -58,7 +58,7 @@ public class VerbosTest {
                         "        }\n" +
                         "    }'")
                 .when()
-                .post("https://jsonplaceholder.typicode.com/users")
+                .post("/users")
                 .then()
                 .statusCode(201)
                 .body("id", equalTo(11));
@@ -106,4 +106,5 @@ public class VerbosTest {
                 .then()
                 .statusCode(200);
     }
+
 }
